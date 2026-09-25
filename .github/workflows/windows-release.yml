@@ -12,10 +12,6 @@ on:
         description: 'Tag name for release (e.g. v1.0.0)'
         required: false
         default: 'v1.0.0'
-      create_release:
-        description: 'Publish as GitHub Release'
-        type: boolean
-        default: true
 
 permissions:
   contents: write
@@ -70,29 +66,41 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Create GitHub Release
-        if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.create_release)
+      - name: Determine Release Tag
+        id: vars
+        shell: bash
+        run: |
+          if [[ "${{ github.ref }}" == refs/tags/v* ]]; then
+            TAG="${GITHUB_REF#refs/tags/}"
+          elif [ -n "${{ inputs.release_tag }}" ]; then
+            TAG="${{ inputs.release_tag }}"
+          else
+            VERSION=$(python -c "import cutemix; print(cutemix.__version__)")
+            TAG="v${VERSION}"
+          fi
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+
+      - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name != 'main' && github.ref_name || inputs.release_tag }}
-          name: CuteMix ${{ github.ref_name != 'main' && github.ref_name || inputs.release_tag }}
+          tag_name: ${{ steps.vars.outputs.tag }}
+          name: CuteMix ${{ steps.vars.outputs.tag }}
           body: |
-            ## CuteMix Windows Standalone Release
+            ## CuteMix Windows Standalone Release (${{ steps.vars.outputs.tag }})
 
             Pre-built standalone executable for **Windows (x64)** to manage MOTU PCIe-424 with 24i over OSC.
 
             ### What's Included:
             * `CuteMix.exe` — Standalone Windows GUI executable (no Python installation required).
-            * `snapshots/` — Preset scenes (`default_unity.json`, `tracking_template.json`).
-            * `README.md` — Full documentation and MOTU CueMix FX configuration guide.
+            * `CuteMix-Windows-x64.zip` — Portable bundle containing `CuteMix.exe`, `snapshots/`, and `README.md`.
 
             ### Quick Start on Windows:
-            1. Download `CuteMix-Windows-x64.zip` below and extract it.
-            2. Open **MOTU CueMix FX** and ensure OSC is enabled (`Control Surfaces > TouchOSC`).
+            1. Download `CuteMix-Windows-x64.zip` (or `CuteMix.exe`) below and extract it.
+            2. Open **MOTU CueMix FX** on Windows and ensure OSC is enabled (`Control Surfaces > TouchOSC`).
             3. Run `CuteMix.exe`.
           draft: false
           prerelease: false
-          generate_release_notes: true
+          make_latest: true
           files: |
             dist/CuteMix-Windows-x64.zip
             dist/CuteMix.exe
