@@ -1,0 +1,9 @@
+# CuteMix Dependencies
+# Primary GUI Framework (PySide6 or PyQt6):
+PySide6>=6.4.0
+
+# Optional Bonjour / Zeroconf auto-discovery for MOTU CueMix FX:
+zeroconf>=0.130.0
+
+# Optional external OSC library (CuteMix has a built-in zero-dependency OSC 1.0 engine):
+python-osc>=1.8.0

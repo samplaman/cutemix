@@ -1,0 +1,1004 @@
+{
+  "active_bus_idx": 0,
+  "atten_norm": 0.2,
+  "buses": {
+    "0": {
+      "idx": 0,
+      "master_fader_norm": 0.78,
+      "master_mute": false,
+      "name": "Mix 1",
+      "sends": {
+        "0": {
+          "channel_idx": 0,
+          "fader_norm": 0.85,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "1": {
+          "channel_idx": 1,
+          "fader_norm": 0.82,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "10": {
+          "channel_idx": 10,
+          "fader_norm": 0.82,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "11": {
+          "channel_idx": 11,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "12": {
+          "channel_idx": 12,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "13": {
+          "channel_idx": 13,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "14": {
+          "channel_idx": 14,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "15": {
+          "channel_idx": 15,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "16": {
+          "channel_idx": 16,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "17": {
+          "channel_idx": 17,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "18": {
+          "channel_idx": 18,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "19": {
+          "channel_idx": 19,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "2": {
+          "channel_idx": 2,
+          "fader_norm": 0.75,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "20": {
+          "channel_idx": 20,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "21": {
+          "channel_idx": 21,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "22": {
+          "channel_idx": 22,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "23": {
+          "channel_idx": 23,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "3": {
+          "channel_idx": 3,
+          "fader_norm": 0.7,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "4": {
+          "channel_idx": 4,
+          "fader_norm": 0.76,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "5": {
+          "channel_idx": 5,
+          "fader_norm": 0.76,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "6": {
+          "channel_idx": 6,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "7": {
+          "channel_idx": 7,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "8": {
+          "channel_idx": 8,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "9": {
+          "channel_idx": 9,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        }
+      }
+    },
+    "1": {
+      "idx": 1,
+      "master_fader_norm": 0.78,
+      "master_mute": false,
+      "name": "Mix 2",
+      "sends": {
+        "0": {
+          "channel_idx": 0,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "1": {
+          "channel_idx": 1,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "10": {
+          "channel_idx": 10,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "11": {
+          "channel_idx": 11,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "12": {
+          "channel_idx": 12,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "13": {
+          "channel_idx": 13,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "14": {
+          "channel_idx": 14,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "15": {
+          "channel_idx": 15,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "16": {
+          "channel_idx": 16,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "17": {
+          "channel_idx": 17,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "18": {
+          "channel_idx": 18,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "19": {
+          "channel_idx": 19,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "2": {
+          "channel_idx": 2,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "20": {
+          "channel_idx": 20,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "21": {
+          "channel_idx": 21,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "22": {
+          "channel_idx": 22,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "23": {
+          "channel_idx": 23,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "3": {
+          "channel_idx": 3,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "4": {
+          "channel_idx": 4,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "5": {
+          "channel_idx": 5,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "6": {
+          "channel_idx": 6,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "7": {
+          "channel_idx": 7,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "8": {
+          "channel_idx": 8,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "9": {
+          "channel_idx": 9,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        }
+      }
+    },
+    "2": {
+      "idx": 2,
+      "master_fader_norm": 0.78,
+      "master_mute": false,
+      "name": "Mix 3",
+      "sends": {
+        "0": {
+          "channel_idx": 0,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "1": {
+          "channel_idx": 1,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "10": {
+          "channel_idx": 10,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "11": {
+          "channel_idx": 11,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "12": {
+          "channel_idx": 12,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "13": {
+          "channel_idx": 13,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "14": {
+          "channel_idx": 14,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "15": {
+          "channel_idx": 15,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "16": {
+          "channel_idx": 16,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "17": {
+          "channel_idx": 17,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "18": {
+          "channel_idx": 18,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "19": {
+          "channel_idx": 19,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "2": {
+          "channel_idx": 2,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "20": {
+          "channel_idx": 20,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "21": {
+          "channel_idx": 21,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "22": {
+          "channel_idx": 22,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "23": {
+          "channel_idx": 23,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "3": {
+          "channel_idx": 3,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "4": {
+          "channel_idx": 4,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "5": {
+          "channel_idx": 5,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "6": {
+          "channel_idx": 6,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "7": {
+          "channel_idx": 7,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "8": {
+          "channel_idx": 8,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "9": {
+          "channel_idx": 9,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        }
+      }
+    },
+    "3": {
+      "idx": 3,
+      "master_fader_norm": 0.78,
+      "master_mute": false,
+      "name": "Mix 4",
+      "sends": {
+        "0": {
+          "channel_idx": 0,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "1": {
+          "channel_idx": 1,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "10": {
+          "channel_idx": 10,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "11": {
+          "channel_idx": 11,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "12": {
+          "channel_idx": 12,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "13": {
+          "channel_idx": 13,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "14": {
+          "channel_idx": 14,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "15": {
+          "channel_idx": 15,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "16": {
+          "channel_idx": 16,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "17": {
+          "channel_idx": 17,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "18": {
+          "channel_idx": 18,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "19": {
+          "channel_idx": 19,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "2": {
+          "channel_idx": 2,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "20": {
+          "channel_idx": 20,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "21": {
+          "channel_idx": 21,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "22": {
+          "channel_idx": 22,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "23": {
+          "channel_idx": 23,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "3": {
+          "channel_idx": 3,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "4": {
+          "channel_idx": 4,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "5": {
+          "channel_idx": 5,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.5,
+          "solo": false
+        },
+        "6": {
+          "channel_idx": 6,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "7": {
+          "channel_idx": 7,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        },
+        "8": {
+          "channel_idx": 8,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 0.0,
+          "solo": false
+        },
+        "9": {
+          "channel_idx": 9,
+          "fader_norm": 0.78,
+          "gang": false,
+          "mute": false,
+          "pan_norm": 1.0,
+          "solo": false
+        }
+      }
+    }
+  },
+  "inputs": {
+    "0": {
+      "idx": 0,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "1": {
+      "idx": 1,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "10": {
+      "idx": 10,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "11": {
+      "idx": 11,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "12": {
+      "idx": 12,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "13": {
+      "idx": 13,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "14": {
+      "idx": 14,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "15": {
+      "idx": 15,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "16": {
+      "idx": 16,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    },
+    "17": {
+      "idx": 17,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    },
+    "18": {
+      "idx": 18,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "19": {
+      "idx": 19,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "2": {
+      "idx": 2,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "20": {
+      "idx": 20,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "21": {
+      "idx": 21,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "22": {
+      "idx": 22,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "23": {
+      "idx": 23,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "3": {
+      "idx": 3,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "4": {
+      "idx": 4,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "5": {
+      "idx": 5,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": false,
+      "trim_norm": 0.0
+    },
+    "6": {
+      "idx": 6,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    },
+    "7": {
+      "idx": 7,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    },
+    "8": {
+      "idx": 8,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    },
+    "9": {
+      "idx": 9,
+      "input_mute": false,
+      "pad": false,
+      "phase": false,
+      "stereo_link": true,
+      "trim_norm": 0.0
+    }
+  },
+  "listenback": false,
+  "num_buses": 4,
+  "num_channels": 24,
+  "talkback": false
+}
